@@ -14,7 +14,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @EnableAsync
 @ComponentScan(basePackages = { "com.deloitte" })
 @PropertySources({
-@PropertySource(value = "${spring.config.location}")
+//@PropertySource(value = "${spring.config.location}")
 })
 public class DKartEcommerceProductsApplication extends SpringBootServletInitializer{
 
