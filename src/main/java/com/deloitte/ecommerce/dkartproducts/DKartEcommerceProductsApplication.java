@@ -11,6 +11,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 
 
 @SpringBootApplication
+@EnableDiscoveryClient
 @EnableAsync
 @ComponentScan(basePackages = { "com.deloitte" })
 @PropertySources({
